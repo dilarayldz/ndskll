@@ -9,7 +9,7 @@ def load_zip_file(zip_file_path, file_name):
         with z.open(file_name) as f:
             return pd.read_csv(f, header=None)
 
-zip_file_path = r"C:\\Users\\dilar\\Downloads\\archive.zip"
+zip_file_path = r".........archive.zip"
 train_file_name = 'KDDTrain+.txt'
 test_file_name = 'KDDTest+.txt'
 
